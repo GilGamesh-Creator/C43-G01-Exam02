@@ -13,7 +13,7 @@ namespace ExamOOP
             if (Console.ReadLine().ToLower() != "y") return;
 
             Console.Clear();
-            Console.Write("Exam type (1: Final, 2: Practical): ");
+            Console.Write("Choose Exam type (1: Final, 2: Practical): ");
             int examType = int.Parse(Console.ReadLine());
 
             Console.Write("Duration (minutes): ");
